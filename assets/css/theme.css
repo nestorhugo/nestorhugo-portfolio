@@ -239,7 +239,7 @@ body {
 .tt-scrolling-text,
 #blog-list.bli-compact .bli-info::before,
 .blog-interactive-item::before {
-	font-family: 'Noto Serif JP', serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 
