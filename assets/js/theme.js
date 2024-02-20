@@ -42,8 +42,6 @@
   // ========================================
   // Detect browser and add class to </body>
   // ========================================
-
-  // Detect Firefox
   let firefoxAgent = navigator.userAgent.indexOf("Firefox") > -1;
 
   // Add class "is-firefox" to </body>
@@ -55,7 +53,7 @@
   // Detect mobile device and add class "is-mobile" to </body>
   // ==========================================================
 
-  // Detect mobile device (Do not remove!!!)
+  // Detect mobile device
   var isMobile =
     /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Nokia|Opera Mini/i.test(
       navigator.userAgent
